@@ -15,6 +15,7 @@ This skill empowers Antigravity agents to extend their own capabilities through 
 2. **Context Efficiency**: Keep instructions concise to minimize token usage while maintaining clarity.
 3. **Discoverability**: Use precise, keyword-rich descriptions in the frontmatter to help the agent identify relevance.
 4. **Reliability**: Provide checklists and error-handling logic for critical tasks.
+5. **Singular Naming**: Always use `.agent` (singular), never `.agents` (plural), for the root configuration directory to ensure automatic tool detection.
 
 ## Anatomy of a Skill
 A standard Antigravity skill follows this structure:
